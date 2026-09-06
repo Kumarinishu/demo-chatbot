@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daily Business Bot</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="chat-page">
+	<main class="chat-app">
+		<header class="chat-header"><a href="/" class="chat-back">‹</a><div class="chat-identity"><h1 data-i18n="botName">Code&amp;Clover Pro Bot</h1><p data-i18n="botStatus">Business Analysis</p></div><div class="chat-bot-avatar"><img src="/static/code-clover-logo.svg" alt="Code and Clover Pro Bot"></div><div class="chat-actions">⌕ <span>⋮</span></div></header>
+		<div class="flow-label" data-i18n="flowLabel">FLOW 1/5 · CHAT INITIATION</div>
+		<section class="chat-content" aria-live="polite">
+			<div class="chat-bot-message"><div><h2 data-i18n="greeting">Hello! I can help you with abandonment analysis.</h2><p id="welcome-message">Please choose your preferred language for the report:</p></div><div class="bot-mini"><img src="/static/code-clover-logo.svg" alt="Code and Clover Pro Bot"></div></div>
+			<div class="language-options chat-options" aria-label="Language preferences"><button class="language-btn" data-language="hindi">Hindi</button><button class="language-btn" data-language="english">English</button><button class="language-btn active" data-language="hinglish">Hinglish ✓</button></div>
+			<div class="selected-language" id="selected-language">Language selected: Hinglish ✓</div>
+			<div class="method-card"><h2 id="bot-title">Now type mentioned:</h2><p id="bot-subtitle">Choose any option to open the business view.</p><div class="quick-actions" id="quick-actions"><button class="action-btn" data-flow="with_ml"><strong>•</strong><span>Aaj ka batao</span><small>📅</small></button><button class="action-btn" data-flow="all"><strong>•</strong><span>Status</span><small>📈</small></button></div></div>
+			<div class="sample-title" data-i18n="sampleTitle">✎ Example customers analysis · sample list:</div><div class="sample-card"><table><tr><th data-i18n="idLabel">ID</th><th data-i18n="customerLabel">Customer</th><th data-i18n="attemptsLabel">Cart attempts</th><th data-i18n="riskLabel">Risk</th><th data-i18n="savedLabel">Revenue saved</th><th data-i18n="outcomeLabel">Outcome</th><th data-i18n="reasonLabel">Reason</th><th data-i18n="actionLabel">Proactive step</th></tr><tr><td>C10291</td><td>Riya Sharma</td><td>3x</td><td class="sample-low">LOW ✓</td><td>Rs 2,800</td><td class="sample-low">RECOVERED</td><td>Repeat intent</td><td>Personalized offer</td></tr><tr><td>C10477</td><td>Aman Patel</td><td>4x</td><td class="sample-low">LOW ✓</td><td>Rs 4,250</td><td class="sample-low">RECOVERED</td><td>Repeat intent</td><td>VIP follow-up</td></tr><tr><td>C10903</td><td>Neha Singh</td><td>1x</td><td class="sample-high">HIGH ⚠</td><td>Rs 0</td><td class="sample-high">CANCELLED</td><td>Checkout cancelled</td><td>Reminder + support</td></tr><tr><td>C11018</td><td>Priya Sharma</td><td>2x</td><td class="sample-medium">MEDIUM</td><td>Rs 2,800</td><td class="sample-low">RECOVERED</td><td>Repeat intent</td><td>Save12 offer</td></tr><tr><td>C11142</td><td>Rohan Kumar</td><td>4x</td><td class="sample-low">LOW ✓</td><td>Rs 4,250</td><td class="sample-low">RECOVERED</td><td>High purchase intent</td><td>Light coupon</td></tr></table></div>
+			<div class="sample-more"><span>5 customers tracked</span><span>Recovery actions tracked live</span></div>
+			<div class="message bot-message hidden" id="question-message"></div>
+			<div class="chat-thread" id="chat-thread" aria-live="polite"></div>
+		</section>
+		<section class="inline-report hidden" id="inline-report" aria-live="polite">
+			<div class="inline-report-heading"><div><span class="report-kicker">COMPLETE REPORT</span><h2>Aaj ke cart ka full hisaab</h2><p>Live CSV data se recovery, revenue aur customer action queue.</p></div><a href="/dashboard" class="report-link">Open control room</a></div>
+			<div class="inline-kpis"><article><strong data-report="total_carts">-</strong><span>Total added</span><small>Cart me aaye</small></article><article class="kpi-recovered"><strong data-report="recovered">-</strong><span>Recovered</span><small data-report-percent="recovered">-</small></article><article class="kpi-cancelled"><strong data-report="cancelled">-</strong><span>Cancelled</span><small data-report-percent="cancelled">-</small></article><article class="kpi-abandoned"><strong data-report="abandoned">-</strong><span>Abandoned</span><small data-report-percent="abandoned">-</small></article></div>
+			<div class="inline-revenue"><h3>Revenue ka hisaab</h3><div class="inline-revenue-grid"><article><strong data-report-currency="revenue">Rs 0</strong><span>Recovered revenue</span></article><article><strong data-report-currency="lost_revenue">Rs 0</strong><span>Lost revenue</span></article><article><strong data-report-currency="average_order_value">Rs 0</strong><span>Avg order value</span></article><article><strong data-report="recovery_rate">0%</strong><span>Recovery rate</span></article></div></div>
+			<div class="inline-visuals"><article><h3>Cart status</h3><div class="report-donut" id="report-donut"><span>0%</span></div><div class="report-legend"><span class="legend-recovered">Recovered</span><span class="legend-cancelled">Cancelled</span><span class="legend-abandoned">Abandoned</span></div></article><article><h3>Kitni baar cart me dala?</h3><div class="attempt-bars"><div><span>1 baar</span><i id="attempt-one" style="height:30%"></i><b data-attempt-count="one_attempt">0 log</b></div><div><span>2 baar</span><i id="attempt-two" style="height:50%"></i><b data-attempt-count="two_attempts">0 log</b></div><div><span>3 baar</span><i id="attempt-three" style="height:70%"></i><b data-attempt-count="three_attempts">0 log</b></div><div><span>4+ baar</span><i id="attempt-four" style="height:90%"></i><b data-attempt-count="four_plus_attempts">0 log</b></div></div></article></div>
+			<div class="inline-customers"><h3>Kisne kitni baar cart me dala + final kya hua</h3><div class="report-table-wrap"><table><thead><tr><th>Customer</th><th>Product</th><th>Cart attempts</th><th>Status</th><th>Revenue</th></tr></thead><tbody id="report-customers"></tbody></table></div></div>
+		</section>
+		<form class="chat-input chat-compose" id="chat-form"><input id="chat-text" type="text" autocomplete="off" placeholder="Type 1, 2 or ask your question..."><button class="send-btn" type="submit" aria-label="Send message">➤</button></form>
+		<footer class="chat-footer"><span data-live-datetime></span> · ◉ <span data-i18n="location">Ghaziabad</span></footer>
+	</main>
+	<script src="/static/script.js"></script>
+	<script src="/static/live-clock.js"></script>
+</body>
+</html>

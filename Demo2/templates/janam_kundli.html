@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janam Kundli Predictor</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0d1226, #1a1033);
+      color: #f4f7ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 32px;
+    }
+    .kundli-shell {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .hero {
+      background: rgba(19, 28, 57, 0.8);
+      border: 1px solid #ff4fd8;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 0 24px rgba(255, 79, 216, 0.25);
+      margin-bottom: 22px;
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      color: #ffde59;
+      font-size: 2.2rem;
+    }
+    .hero p {
+      margin: 0;
+      color: #dfe7ff;
+      font-size: 1.05rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: rgba(15, 22, 40, 0.9);
+      border: 1px solid #24d3ff;
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 0 18px rgba(36, 211, 255, 0.18);
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: #7af2d6;
+      font-size: 1.2rem;
+    }
+    .card p {
+      margin: 8px 0;
+      line-height: 1.6;
+      color: #edf5ff;
+    }
+    .chance {
+      font-size: 1.2rem;
+      color: #ffef7a;
+      font-weight: 700;
+    }
+    .focus {
+      color: #ff8ec7;
+      font-weight: 700;
+    }
+    .btn-wrap {
+      margin-top: 24px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #ff4fd8, #8c52ff);
+      color: white;
+      padding: 12px 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="kundli-shell">
+    <div class="hero">
+      <h1>🔮 FLOW 6/6 · Janam Kundli Predictor</h1>
+      <p>Market me kahi nahi hai — predictive preemption. Yeh bot aaj ke cart ke basis par kal ka abandon pattern pehle se detect karta hai.</p>
+    </div>
+
+    <div class="grid">
+      {% for c in customers %}
+      <article class="card">
+        <h3>{{ c.customer_name }} · {{ c.place }}</h3>
+        <p><strong>Current cart:</strong> {{ c.product }}</p>
+        <p><strong>Cart attempts:</strong> {{ c.times_added }}x · <strong>Risk:</strong> {{ c.risk_level }} {{ c.risk_score }}%</p>
+        <p class="chance">🔮 Future prediction: Kal {{ c.next_product }} abandon kar sakta hai <span class="focus">{{ c.next_abandon_chance }}%</span> chance.</p>
+        <p>⚡ Preemptive action: <span class="focus">{{ c.next_product }}</span> pe 12% coupon bhejo, loss aaj hi rok lo.</p>
+        <p>✅ Smart action: <strong>Send SAVE12</strong> before checkout tomorrow.</p>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="btn-wrap">
+      <button class="btn" onclick="location.href='/dashboard'">Back to Control Room</button>
+      <button class="btn" onclick="location.href='/'">Home</button>
+    </div>
+  </div>
+</body>
+</html>

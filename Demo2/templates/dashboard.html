@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Business Control Room</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dashboard-body">
+    <main class="dashboard-shell">
+        <header class="dashboard-topbar">
+            <a class="brand" href="/"><span><b data-i18n="brand">Code&amp;Clover Pro Bot</b> <small data-i18n="controlRoom">Business Analysis</small></span><img src="/static/code-clover-logo.svg" alt="Code and Clover Pro Bot"></a>
+            <div class="topbar-tools">
+                <select id="language-select" aria-label="Language preference">
+                    <option value="en">English</option><option value="hi">Hindi</option><option value="hinglish">Hinglish</option>
+                </select>
+                <div class="date-time"><strong id="today-date"></strong><span id="current-time"></span></div>
+            </div>
+        </header>
+
+        <section class="dashboard-hero">
+            <div><p class="eyebrow" data-i18n="commandCentre">TODAY'S COMMAND CENTRE</p><h1 id="hub-title">Choose your business view</h1><p id="hub-subtitle">Select a dashboard to open the detailed view with predictions, carts, revenue and customer signals.</p></div>
+            <div class="hero-total"><span data-i18n="liveCarts">LIVE CARTS</span><strong>500</strong><small data-i18n="updatedNow">Updated just now</small></div>
+        </section>
+
+        <section class="hub-grid" aria-label="Dashboard options">
+            <a class="hub-card accent-teal" href="/with_ml"><span class="hub-number">01</span><div class="hub-icon">✦</div><h2 data-i18n="mlTitle">With ML predictions</h2><p data-i18n="mlDescription">Risk scoring, recovery probability and smart coupon recommendations.</p><span class="open-link" data-i18n="openPrediction">Open prediction view ↗</span></a>
+            <a class="hub-card accent-blue" href="/all"><span class="hub-number">02</span><div class="hub-icon">▦</div><h2 data-i18n="combinedTitle">With vs Without comparison</h2><p data-i18n="combinedDescription">Compare ML-powered recovery against the baseline rule-based system across customers, carts and revenue.</p><span class="open-link" data-i18n="openCombined">Open comparison view ↗</span></a>
+            <a class="hub-card accent-yellow" href="/summary"><span class="hub-number">03</span><div class="hub-icon">✓</div><h2 data-i18n="summaryTitle">Today's summary</h2><p data-i18n="summaryDescription">A concise pulse check of orders, revenue, risk and next best action.</p><span class="open-link" data-i18n="openSummary">Open summary view ↗</span></a>
+        </section>
+
+        <footer class="dashboard-footer"><span data-i18n="dataActive">● Data stream active</span><a href="/" data-i18n="backToBot">← Back to bot</a></footer>
+    </main>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>

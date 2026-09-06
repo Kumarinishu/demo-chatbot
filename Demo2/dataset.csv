@@ -1,0 +1,501 @@
+customer_id,customer_name,place,time_ago,product,times_added,risk_score,risk_level,coupon_code,coupon_percent,final_status,revenue
+C0000,Priya Sharma,Delhi,23min ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0001,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0002,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0003,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0004,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0005,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0006,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0007,Priya Sharma,Delhi,23min ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0008,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0009,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0010,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0011,Priya Sharma,Delhi,23min ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0012,Sneha Roy,Lucknow,2hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0013,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0014,Rohan Kumar,Mumbai,30min ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0015,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0016,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,RECOVERED,3200
+C0017,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0018,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0019,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0020,Rohan Kumar,Mumbai,30min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0021,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0022,Anjali Gupta,Noida,1hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0023,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0024,Sneha Roy,Lucknow,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0025,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0026,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0027,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0028,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0029,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,ABANDONED,0
+C0030,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,ABANDONED,0
+C0031,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0032,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,1899
+C0033,Sneha Roy,Lucknow,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0034,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0035,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0036,Sneha Roy,Lucknow,2hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0037,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0038,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0039,Sneha Roy,Lucknow,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0040,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,ABANDONED,0
+C0041,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0042,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,CANCELLED,0
+C0043,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0044,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,ABANDONED,0
+C0045,Priya Sharma,Delhi,23min ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0046,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0047,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0048,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0049,Neha Verma,Jaipur,5hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,RECOVERED,1999
+C0050,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,2499
+C0051,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0052,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0053,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0054,Sneha Roy,Lucknow,2hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0055,Neha Verma,Jaipur,5hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0056,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0057,Priya Sharma,Delhi,23min ago,Black Festive Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0058,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0059,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0060,Priya Sharma,Delhi,23min ago,Green Saree,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0061,Priya Sharma,Delhi,23min ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0062,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0063,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0064,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0065,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0066,Sneha Roy,Lucknow,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0067,Neha Verma,Jaipur,5hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0068,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0069,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0070,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0071,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0072,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0073,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0074,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0075,Anjali Gupta,Noida,1hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0076,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0077,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0078,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0079,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0080,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0081,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0082,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0083,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0084,Priya Sharma,Delhi,23min ago,Red Kurta,1,18,LOW,FESTIVE15,15,RECOVERED,3200
+C0085,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0086,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0087,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0088,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0089,Sneha Roy,Lucknow,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0090,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0091,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0092,Rohan Kumar,Mumbai,30min ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0093,Sneha Roy,Lucknow,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0094,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0095,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0096,Neha Verma,Jaipur,5hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0097,Priya Sharma,Delhi,23min ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0098,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0099,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0100,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,CANCELLED,0
+C0101,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0102,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0103,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0104,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0105,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0106,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0107,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0108,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0109,Priya Sharma,Delhi,23min ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0110,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0111,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0112,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,CANCELLED,0
+C0113,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0114,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0115,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0116,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0117,Sneha Roy,Lucknow,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,ABANDONED,0
+C0118,Priya Sharma,Delhi,23min ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0119,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0120,Priya Sharma,Delhi,23min ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0121,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0122,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,ABANDONED,0
+C0123,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0124,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0125,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,CANCELLED,0
+C0126,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0127,Sneha Roy,Lucknow,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0128,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,CANCELLED,0
+C0129,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0130,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0131,Neha Verma,Jaipur,5hr ago,Red Kurta,3,88,HIGH,VIP5,5,CANCELLED,0
+C0132,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,1899
+C0133,Anjali Gupta,Noida,1hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0134,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,CANCELLED,0
+C0135,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0136,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,ABANDONED,0
+C0137,Neha Verma,Jaipur,5hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0138,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0139,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0140,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0141,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0142,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0143,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0144,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,ABANDONED,0
+C0145,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0146,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0147,Sneha Roy,Lucknow,2hr ago,Green Saree,3,88,HIGH,VIP5,5,ABANDONED,0
+C0148,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0149,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0150,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0151,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0152,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0153,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0154,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0155,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0156,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0157,Sneha Roy,Lucknow,2hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0158,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0159,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0160,Sneha Roy,Lucknow,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0161,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0162,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0163,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0164,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0165,Neha Verma,Jaipur,5hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0166,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0167,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0168,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0169,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0170,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,RECOVERED,1899
+C0171,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0172,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0173,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0174,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0175,Sneha Roy,Lucknow,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0176,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0177,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0178,Sneha Roy,Lucknow,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0179,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0180,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0181,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0182,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0183,Anjali Gupta,Noida,1hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0184,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0185,Priya Sharma,Delhi,23min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,RECOVERED,1899
+C0186,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0187,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0188,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0189,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0190,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0191,Sneha Roy,Lucknow,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0192,Sneha Roy,Lucknow,2hr ago,Green Saree,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0193,Anjali Gupta,Noida,1hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0194,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0195,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0196,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0197,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0198,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0199,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0200,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0201,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0202,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0203,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0204,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0205,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0206,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0207,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0208,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0209,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0210,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0211,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0212,Rohan Kumar,Mumbai,30min ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0213,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0214,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0215,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0216,Neha Verma,Jaipur,5hr ago,Green Saree,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0217,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0218,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0219,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0220,Neha Verma,Jaipur,5hr ago,Black Festive Set,4,92,HIGH,VIP5,5,ABANDONED,0
+C0221,Neha Verma,Jaipur,5hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0222,Rohan Kumar,Mumbai,30min ago,Black Festive Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0223,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0224,Priya Sharma,Delhi,23min ago,Green Saree,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0225,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0226,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0227,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0228,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0229,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0230,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,ABANDONED,0
+C0231,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0232,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0233,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0234,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0235,Priya Sharma,Delhi,23min ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0236,Rohan Kumar,Mumbai,30min ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0237,Neha Verma,Jaipur,5hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0238,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0239,Neha Verma,Jaipur,5hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0240,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0241,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0242,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0243,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0244,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0245,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0246,Neha Verma,Jaipur,5hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0247,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0248,Priya Sharma,Delhi,23min ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,1899
+C0249,Priya Sharma,Delhi,23min ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0250,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0251,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0252,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0253,Rohan Kumar,Mumbai,30min ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0254,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0255,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0256,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,2499
+C0257,Sneha Roy,Lucknow,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0258,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0259,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0260,Anjali Gupta,Noida,1hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0261,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0262,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0263,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,ABANDONED,0
+C0264,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0265,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0266,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0267,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0268,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0269,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0270,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0271,Rohan Kumar,Mumbai,30min ago,Black Festive Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0272,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0273,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0274,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,2499
+C0275,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0276,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0277,Priya Sharma,Delhi,23min ago,Green Saree,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0278,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0279,Priya Sharma,Delhi,23min ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0280,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0281,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0282,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,ABANDONED,0
+C0283,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,CANCELLED,0
+C0284,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0285,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,RECOVERED,2499
+C0286,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,1899
+C0287,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0288,Neha Verma,Jaipur,5hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,RECOVERED,1999
+C0289,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0290,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0291,Priya Sharma,Delhi,23min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,RECOVERED,1999
+C0292,Rohan Kumar,Mumbai,30min ago,Black Festive Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0293,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,RECOVERED,1999
+C0294,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0295,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0296,Sneha Roy,Lucknow,2hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0297,Anjali Gupta,Noida,1hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0298,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0299,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0300,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0301,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0302,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,ABANDONED,0
+C0303,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,CANCELLED,0
+C0304,Priya Sharma,Delhi,23min ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0305,Anjali Gupta,Noida,1hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0306,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0307,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,CANCELLED,0
+C0308,Priya Sharma,Delhi,23min ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0309,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,ABANDONED,0
+C0310,Sneha Roy,Lucknow,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0311,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0312,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0313,Rohan Kumar,Mumbai,30min ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0314,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0315,Sneha Roy,Lucknow,2hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0316,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0317,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0318,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,1999
+C0319,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0320,Priya Sharma,Delhi,23min ago,Red Kurta,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0321,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0322,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0323,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0324,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,CANCELLED,0
+C0325,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0326,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0327,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0328,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0329,Priya Sharma,Delhi,23min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0330,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0331,Sneha Roy,Lucknow,2hr ago,Green Saree,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0332,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0333,Rohan Kumar,Mumbai,30min ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0334,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0335,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0336,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0337,Rohan Kumar,Mumbai,30min ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0338,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0339,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0340,Sneha Roy,Lucknow,2hr ago,Green Saree,3,88,HIGH,VIP5,5,ABANDONED,0
+C0341,Sneha Roy,Lucknow,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0342,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,ABANDONED,0
+C0343,Neha Verma,Jaipur,5hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0344,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,4250
+C0345,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0346,Rohan Kumar,Mumbai,30min ago,Green Saree,3,88,HIGH,VIP5,5,ABANDONED,0
+C0347,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0348,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0349,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0350,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0351,Neha Verma,Jaipur,5hr ago,Red Kurta,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0352,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0353,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0354,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0355,Priya Sharma,Delhi,23min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0356,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0357,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0358,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0359,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0360,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0361,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0362,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0363,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0364,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0365,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0366,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0367,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0368,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0369,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0370,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0371,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0372,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0373,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0374,Neha Verma,Jaipur,5hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0375,Priya Sharma,Delhi,23min ago,Green Saree,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0376,Anjali Gupta,Noida,1hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0377,Anjali Gupta,Noida,1hr ago,Green Saree,1,18,LOW,FESTIVE15,15,RECOVERED,1999
+C0378,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0379,Rohan Kumar,Mumbai,30min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0380,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0381,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,ABANDONED,0
+C0382,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0383,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0384,Neha Verma,Jaipur,5hr ago,Black Festive Set,4,92,HIGH,VIP5,5,ABANDONED,0
+C0385,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0386,Anjali Gupta,Noida,1hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0387,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0388,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0389,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0390,Anjali Gupta,Noida,1hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0391,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0392,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0393,Neha Verma,Jaipur,5hr ago,Red Kurta,4,92,HIGH,VIP5,5,RECOVERED,3200
+C0394,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0395,Priya Sharma,Delhi,23min ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0396,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0397,Anjali Gupta,Noida,1hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0398,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0399,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0400,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0401,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,1999
+C0402,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0403,Anjali Gupta,Noida,1hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0404,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0405,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0406,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0407,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0408,Priya Sharma,Delhi,23min ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0409,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0410,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0411,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0412,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0413,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0414,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,CANCELLED,0
+C0415,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0416,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0417,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,1999
+C0418,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0419,Anjali Gupta,Noida,1hr ago,Green Saree,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0420,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0421,Anjali Gupta,Noida,1hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,RECOVERED,2800
+C0422,Sneha Roy,Lucknow,2hr ago,Red Kurta,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0423,Priya Sharma,Delhi,23min ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,RECOVERED,3200
+C0424,Priya Sharma,Delhi,23min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,ABANDONED,0
+C0425,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,ABANDONED,0
+C0426,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0427,Riya Singh VIP,Ghaziabad VIP,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0428,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0429,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0430,Sneha Roy,Lucknow,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,4250
+C0431,Rohan Kumar,Mumbai,30min ago,Red Kurta,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0432,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0433,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0434,Sneha Roy,Lucknow,2hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0435,Rohan Kumar,Mumbai,30min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0436,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0437,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0438,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0439,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0440,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0441,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0442,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0443,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,2800
+C0444,Anjali Gupta,Noida,1hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0445,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,RECOVERED,4250
+C0446,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0447,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0448,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0449,Sneha Roy,Lucknow,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0450,Neha Verma,Jaipur,5hr ago,Blue Kurta Set,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0451,Anjali Gupta,Noida,1hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0452,Anjali Gupta,Noida,1hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0453,Anjali Gupta,Noida,1hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0454,Neha Verma,Jaipur,5hr ago,Black Festive Set,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0455,Neha Verma,Jaipur,5hr ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0456,Priya Sharma,Delhi,23min ago,Green Saree,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0457,Anjali Gupta,Noida,1hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0458,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0459,Sneha Roy,Lucknow,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0460,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1999
+C0461,Riya Singh VIP,Ghaziabad VIP,2hr ago,Black Festive Set,3,88,HIGH,VIP5,5,CANCELLED,0
+C0462,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0463,Sneha Roy,Lucknow,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0464,Priya Sharma,Delhi,23min ago,Blue Kurta Set,1,18,LOW,FESTIVE15,15,ABANDONED,0
+C0465,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0466,Rohan Kumar,Mumbai,30min ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,2800
+C0467,Neha Verma,Jaipur,5hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0468,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,CANCELLED,0
+C0469,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0470,Anjali Gupta,Noida,1hr ago,Red Kurta,3,88,HIGH,VIP5,5,CANCELLED,0
+C0471,Sneha Roy,Lucknow,2hr ago,Black Festive Set,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0472,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0473,Anjali Gupta,Noida,1hr ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0474,Anjali Gupta,Noida,1hr ago,Black Festive Set,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0475,Priya Sharma,Delhi,23min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0476,Anjali Gupta,Noida,1hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0477,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0478,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,4,92,HIGH,VIP5,5,RECOVERED,1899
+C0479,Priya Sharma,Delhi,23min ago,Green Saree,2,62,MEDIUM,SAVE12,12,ABANDONED,0
+C0480,Neha Verma,Jaipur,5hr ago,Red Anarkali Kurti,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0481,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0482,Priya Sharma,Delhi,23min ago,Red Anarkali Kurti,2,62,MEDIUM,SAVE12,12,CANCELLED,0
+C0483,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0484,Riya Singh VIP,Ghaziabad VIP,2hr ago,Lehenga Choli Festive,1,18,LOW,FESTIVE15,15,CANCELLED,0
+C0485,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,CANCELLED,0
+C0486,Riya Singh VIP,Ghaziabad VIP,2hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0487,Rohan Kumar,Mumbai,30min ago,Red Anarkali Kurti,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0488,Sneha Roy,Lucknow,2hr ago,Blue Kurta Set,4,92,HIGH,VIP5,5,RECOVERED,2499
+C0489,Riya Singh VIP,Ghaziabad VIP,2hr ago,Red Kurta,3,88,HIGH,VIP5,5,ABANDONED,0
+C0490,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0491,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,2800
+C0492,Rohan Kumar,Mumbai,30min ago,Red Kurta,3,88,HIGH,VIP5,5,CANCELLED,0
+C0493,Priya Sharma,Delhi,23min ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,1899
+C0494,Sneha Roy,Lucknow,2hr ago,Lehenga Choli Festive,2,62,MEDIUM,SAVE12,12,RECOVERED,3200
+C0495,Priya Sharma,Delhi,23min ago,Black Festive Set,3,88,HIGH,VIP5,5,RECOVERED,2499
+C0496,Neha Verma,Jaipur,5hr ago,Green Saree,3,88,HIGH,VIP5,5,RECOVERED,3200
+C0497,Rohan Kumar,Mumbai,30min ago,Black Festive Set,3,88,HIGH,VIP5,5,CANCELLED,0
+C0498,Neha Verma,Jaipur,5hr ago,Lehenga Choli Festive,3,88,HIGH,VIP5,5,RECOVERED,4250
+C0499,Rohan Kumar,Mumbai,30min ago,Blue Kurta Set,3,88,HIGH,VIP5,5,RECOVERED,4250
